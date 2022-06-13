@@ -1,0 +1,89 @@
+* {
+   box-sizing: border-box;
+   margin: 0px;
+   padding 0px;
+}
+
+
+.container {
+    margin: 0px;
+    font-size: 40px;
+    padding-top: 0.2px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1050%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(61%2c 61%2c 61%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c600.848C108.797%2c577.919%2c164.877%2c461.701%2c253.949%2c395.152C334.833%2c334.721%2c458.845%2c320.526%2c499.119%2c227.94C539.379%2c135.385%2c465.676%2c34.972%2c454.244%2c-65.31C442.348%2c-169.665%2c492.574%2c-288.319%2c430.599%2c-373.116C368.44%2c-458.165%2c243.825%2c-456.717%2c143.871%2c-489.979C39.726%2c-524.635%2c-68.003%2c-617.47%2c-168.051%2c-572.33C-270.727%2c-526.004%2c-265.42%2c-376.582%2c-322.586%2c-279.522C-366.831%2c-204.399%2c-432.128%2c-147.418%2c-465.702%2c-66.958C-508.155%2c34.782%2c-566.885%2c140.269%2c-542.624%2c247.808C-516.986%2c361.451%2c-431.166%2c455.429%2c-333.516%2c518.962C-235.58%2c582.681%2c-114.329%2c624.943%2c0%2c600.848' fill='%23282828'%3e%3c/path%3e%3cpath d='M1440 1118.563C1546.585 1131.0639999999999 1655.932 1094.263 1743.305 1031.952 1828.59 971.129 1882.356 876.744 1917.466 778.0509999999999 1950.545 685.067 1953.144 585.897 1936.6 488.6 1920.375 393.177 1871.529 311.632 1823.836 227.404 1764.468 122.55599999999998 1740.118-34.702999999999975 1623.385-64.553 1505.589-94.67499999999995 1416.379 49.72399999999999 1303.253 94.28399999999999 1204.017 133.373 1076.371 104.04199999999997 1001.793 180.291 926.705 257.061 913.629 378.196 920.761 485.345 927.169 581.623 993.537 658.0409999999999 1039.249 743.017 1081.655 821.846 1113.901 904.5830000000001 1179.215 965.79 1254.247 1036.103 1337.871 1106.5839999999998 1440 1118.563' fill='%23525252'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1050'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.container {
+    border: 3px solid gold;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-right: 20px;
+}
+
+.nav-list {
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list:hover {
+    color: black;
+}
+
+.paragraph {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.btn-daftar>button {
+    background-color: cadetblue;
+    height: 100px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 20px;
+    color: white;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-daftar>button:hover {
+    background-color: white;
+    color: cadetblue;
+    border: 2px solid cadetblue;
+
+}
+.btn-lihat>button {
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    border-color: cadetblue;
+    border-radius: 15px;
+    color: cadetblue;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 50px;
+}
+
+.btn-lihat>button:hover {
+    background-color:  cadetblue;
+    color: white;
+}
